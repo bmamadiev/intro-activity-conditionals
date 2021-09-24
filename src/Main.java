@@ -18,6 +18,10 @@ public class Main {
         // Write your code here 
         int number = 5;
 
+        if (number > 10) {
+            System.out.println ("It is bigger than 10!");
+        } else
+            System.out.println ("It is not bigger than 10!");
 
         // ----------------------------------------------------------------------------------------------
         System.out.println("Exercise Two");
@@ -30,9 +34,19 @@ public class Main {
         // 6 - Then test your code! Change the value of the color variable to different colors and run your code.
         //     The correct message should log to the console.
         //
-        // Write your code here 
-        String color = "";
+        // Write your code here
 
+        String color = "red";
+
+        if (color == "blue") {
+            System.out.println("The Sky is blue.");
+        } else if (color == "red") {
+            System.out.println("The flower is red");
+        } else if (color == "green") {
+            System.out.println("The leaf is green.");
+        } else {
+            System.out.println("It is a different color");
+                }
 
         // ----------------------------------------------------------------------------------------------
         System.out.println("Exercise Three");
@@ -44,8 +58,16 @@ public class Main {
         // - Change the number assigned to value to different odd and even numbers to make sure your
         //   code works.
         //
-        // Write your code here 
+        // Write your code here
+
         int value = 4;
+
+        if (value % 2 == 0) {
+            System.out.println("The number is even.");
+        } else {
+            System.out.println("The number is odd.");
+        }
+
 
 
         // ----------------------------------------------------------------------------------------------
@@ -68,13 +90,19 @@ public class Main {
         //     a chain of if else statements, some of those just might need multiple conditions
         //     (like: if (a && b) )
         //
-        // Write your code here 
+        // Write your code here
 
+        int myNumber = 16;
 
-
-        // When you are done with all of the exercises, check your console output to make sure it
-        // matches the expected output of each exercise and remove any extraneous System.out.println()
-        // statements from your code.
+        if (myNumber == 16) {
+            System.out.println("16!");
+        } else if (myNumber > 10 && myNumber < 20) {
+            System.out.println("Between 10 and 20.");
+        } else if (myNumber >= 20) {
+            System.out.println("20 or greater");
+        } else if (myNumber <= 10) {
+            System.out.println("10 or less!");
+        }
 
     }
 }
