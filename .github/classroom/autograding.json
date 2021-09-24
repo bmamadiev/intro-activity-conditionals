@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "Exercise One",
+      "setup": "",
+      "run": "java src/Main.java",
+      "input": "",
+      "output": "Exercise One\r\nIt is bigger than 10!",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Exercise Two",
+      "setup": "",
+      "run": "java src/Main.java",
+      "input": "",
+      "output": "Exercise Two[\\s.*]*(The sky is blue|The flower is red|The leaf is green|It is a different color)",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Exercise Three",
+      "setup": "",
+      "run": "java src/Main.java",
+      "input": "",
+      "output": "Exercise Three[.*\\s]*(The number is even|The number is odd)",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Exercise Four",
+      "setup": "",
+      "run": "java src/Main.java",
+      "input": "",
+      "output": "Exercise Four[.*\\s]*(Between 10 and 20|20 or greater|16|10 or less)",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
